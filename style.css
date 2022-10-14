@@ -1,0 +1,27 @@
+/* Centralizando o botao na tela */
+#button {
+    left: 50%;
+    top : 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* Propriedades de tamanho dos botoes */
+#iniciar-btn,
+#parar-btn {
+    width: 100px;
+    padding: 5px;
+}
+
+/* Afastando os botoes */
+#iniciar-btn {
+    margin-right: 60px;
+}
+
+/* Posicionando o cronometro e aumentando fonte */
+#text {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
